@@ -1,0 +1,9 @@
+Mitä ohjelmistoa mittasit (useampi kuin yksi tiedosto)? - requests
+Kuinka monta loogista koodiriviä - LLOC: 3315
+Mikä on koodipohjan monimutkaisin funktio/moduuli/luokka? Käy myös katsomassa miltä se näyttää.
+  adapter.py:n HTTPAdapter.send ja models.py:n PreparedRequest.prepare_url, kummankin cc score 24
+Anna muutama esimerkki koodipohjasta staattisen analysoinnin perusteella löytyvästä virheestä
+  adapters.py:372:4: R0201: Method could be a function (no-self-use)
+  adapters.py:372:4: R0201: Method could be a function (no-self-use)
+  packages.py:1:0: C0111: Missing module docstring (missing-docstring)
+  status_codes.py:22:0: C0103: Constant name "_codes" doesn't conform to UPPER_CASE naming style (invalid-name)
